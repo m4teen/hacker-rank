@@ -5,6 +5,8 @@ which covers data structures, algorithms, and problem-solving techniques across 
 
 ## Progress Tracker
 
-| Problem | Status | Code                               |
-| ------- | ------ |------------------------------------|
-| 1       | Done   | [plus_minus.py](w1/plus_minus.py)  |
+| Problem | Status | Code                                         |
+| ------- | ------ |----------------------------------------------|
+| 1       | Done   | [plus_minus.py](w1/plus_minus.py)            |
+| 2       | Done   | [min_max.py](w1/min_max.py)                  |
+| 3       | Done   | [time_conversion.py](w1/time_conversion.py)  |
