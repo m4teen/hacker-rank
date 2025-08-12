@@ -5,3 +5,5 @@
 *.toc
 *.out
 *.log
+*.tex
+*.pdf
