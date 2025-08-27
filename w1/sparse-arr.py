@@ -30,4 +30,17 @@ def matchingStrings(strings, queries):
     [2, 1, 0]
     # 'ab' occurs twice, 'abc' occurs once, 'bc' occurs zero times.
     """
-    pass 
+    stuff = []
+
+    for q in queries:
+        q_count = 0 
+        for s in strings:
+            if q == s:
+                q_count += 1
+            else:
+                continue
+        stuff.append(q_count)
+    
+    return stuff
+
+print(matchingStrings(['ab', 'ab', 'abc'], ['ab', 'abc', 'bc']))
