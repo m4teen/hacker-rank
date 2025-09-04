@@ -1,4 +1,22 @@
-def marsExploration(s):
+def mars_exploration(s: str) -> int:
+    """
+    Given a received signal string s, composed of repeated 'SOS' transmissions of length multiple of 3,
+    count and return the number of characters that differ from the expected 'SOS' pattern.
+
+    Parameters:
+        s (str): The received message, uppercase letters only, length divisible by 3.
+
+    Returns:
+        int: The count of characters altered by interference.
+
+    Example:
+        >>> mars_exploration("SOSSPSSQSSOR")
+        3
+        >>> mars_exploration("SOSSOT")
+        1
+        >>> mars_exploration("SOSSOSSOS")
+        0
+    """
     s = list(s) 
     og = ['S','O','S']
     err = 0 
