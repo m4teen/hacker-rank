@@ -1,4 +1,4 @@
-def pangrams(s: str) -> str:
+def pangrams(s):
     """
     Assess whether a given sentence is a pangram—a sentence containing
     every letter of the English alphabet at least once, ignoring case.

@@ -1,4 +1,4 @@
-def counting_valleys(steps: int, path: str) -> int:
+def counting_valleys(steps, path):
     """
     Given an integer number of steps and a string path of equal length
     composed of characters 'U' (uphill) and 'D' (downhill), determine

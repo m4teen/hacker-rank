@@ -1,4 +1,4 @@
-def mars_exploration(s: str) -> int:
+def mars_exploration(s):
     """
     Given a received signal string s, composed of repeated 'SOS' transmissions of length multiple of 3,
     count and return the number of characters that differ from the expected 'SOS' pattern.
