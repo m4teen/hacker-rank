@@ -44,3 +44,9 @@ def pageCount(n, p):
                 minp = (n-p)//2
 
     return minp
+
+
+# %%
+
+
+
