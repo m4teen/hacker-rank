@@ -1,4 +1,4 @@
-def towerBreakers(n: int, m: int) -> int:
+def towerBreakers(n, m):
     """
     Determine the winner of the Tower Breakers game.
 
